@@ -29,7 +29,8 @@ let mapleader="\<SPACE>"
   nnoremap <C-b> :Buffers<CR>
   nnoremap <C-f> :Ag<CR>
 
+" VSCode Plugin Theme
 lua << EOF
-vim.o.background = 'dark'
-require('vscode').load()
+  vim.o.background = 'dark'
+  require('vscode').load()
 EOF
